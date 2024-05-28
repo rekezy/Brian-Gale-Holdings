@@ -1,0 +1,551 @@
+h1 h2 h3 h4 p span{
+  font-family: 'Poppins';
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper_second_useful .phone_number{
+  font-size: 20px;
+
+}
+
+link[rel="icon"] {
+  border-radius: 100%;
+}
+.logo_sidebar{
+  color: white;
+}
+
+
+.logo{
+  margin-top: 19px;
+}
+
+.logo_style .logo_image1{
+  height: 60px;
+  margin-top: -10px;
+ 
+}
+
+.logo_style .logo_image2{
+  height:50px;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.nav_links{
+  margin-left: 100px;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  flex: 1;
+  text-align: center;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.text-overlay h2{
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.text-overlay p{
+  font-weight: 400;
+  width: 400px;
+} 
+
+.logo_style{
+  width: 300px;
+  height: 100px;
+  display: flex;
+ 
+  
+}
+
+
+.navbar_container{
+  width: 60%;
+  background-color: red;
+  height: 100px;
+  align-items: center;
+}
+.navbar_links{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.navbar_links ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+
+
+.solar_body .inner_body{
+  width: 100%;
+  height: 450px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+
+}
+
+.inner_body .inner_left{
+  
+  width: 50%;
+  height: 300px;
+  margin-left: 20px;
+}
+
+
+.inner_body .inner_right{
+  width: 50%;
+  height: 350px;
+  justify-content: space-around;
+  display: block;
+}
+
+.inner_right h4{
+  font-size: 15px;
+  width: 70%;
+  font-family: 'Lato';
+  margin-bottom: 10px;
+  color: #00aaef;
+}
+
+
+.inner_right p{
+  font-family: 'Lato';
+  width: 100%;
+  font-size: 12px;
+}
+
+.solar_upper{
+   position: relative;
+   width: 100%;
+  height: 400px; /* Set your desired height */
+   background-size: cover;
+
+}
+
+/*Footer page*/
+
+.footer_main{
+  background-color: black;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+
+/*footer end*/
+
+
+/*Start Login Page Styles*/
+.login_logo{
+  width: 300px;
+  height: 100px;
+  display: flex;
+  margin-left: 100px;
+}
+
+.login_logo .login_img1{
+  height: 50px;
+}
+.login_logo .login_img2{
+  height: 50px;
+}
+
+/*End Login Styles*/
+
+/*About Page Styles*/
+.page_title{
+  background-color:#68b880;
+  
+}
+
+.sv_money_text_wrapper .about_headers{
+  font-size: 30px;
+}
+
+.sv_abt_img_wrapper .img_response{
+  margin-right: 300px;
+  margin-top: 200px;
+  height: 100px;
+}
+.sv_abt_img_wrapper .img_responsive{
+  border-radius: 100%;
+}
+
+.sv_abt_img_wrapper img{
+  margin-right: 100px;
+  height: 300px;
+  margin-top: 30px;
+}
+
+
+/*End of styles for about page*/
+
+/*Start for investment styles*/
+
+.invest_payment_method{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.payment_image{
+  height: 250px;
+  margin-bottom: 80px;
+}
+
+/*End of investment styles*/
+.solar_body{
+width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+/*Blog Single start*/
+
+.blog-single_cntnt .bold{
+  font-weight: 400;
+  color: blue;
+}
+
+
+/*Blog Single End */
+
+/*Onboarding Styles start here*/
+
+.register_body{
+  width: 100%;
+  height: 100vh;
+ 
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.register_container{
+  width: 100%;
+  height: 100vh;
+
+  position: relative;
+
+}
+
+
+.container_center{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container_center .left{
+  width: 50%;
+
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container_center .left .logo_style{
+ 
+  justify-content: center;
+  width: 500px;
+  align-items: center;
+}
+
+.container_center .left .logo_style .logo_image1{
+  height: 50px;
+  margin-left: 40px;
+}
+.container_center .left .logo_style .logo_image2 {
+ margin-top: 30px;
+}
+
+
+.container_center .right{
+  width: 50%;
+  height: 400px;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+.container_center .right h3{
+  width: 60%;
+  text-align: center;
+ 
+}
+
+
+.container_center .right .onboarding_team{
+  display: flex;
+  width: 50%;
+  height: 200px;
+  
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+.business_register{
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+.inner_register{
+  width: 100%;
+  height: 100vh;
+  justify-content: space-around;
+  color: white;
+
+}
+
+.left_register{
+  width: 40%;
+  height: 100vh;
+  background-color: yellow;
+}
+
+.left_register h2{
+  font-family: 'Poppins';
+}
+
+
+.left_register span{
+  color: green;
+ 
+}
+
+.company_img{
+  height: 300px;
+}
+
+.inner_onboarding{
+
+  flex-direction: column;
+}
+
+.business_btn{
+  
+  background-color: blue;
+  padding: 3px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.business_btn a{
+  color: white;
+}
+
+.individual_btn{
+  color: white;
+  padding: 10px;
+}
+
+
+.onboarding_img{
+
+}
+
+
+/*Onboarding Styles ends here*/
+
+/*Testomial starts here*/
+
+.ts_img_social_wrapper{
+  margin-bottom: 60px;
+}
+
+.ts_img_social_wrapper img{
+  height: 80px;
+}
+.testimonial_color{
+  color:#68b880;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+
+
+/*Testmonial ends here*/
+
+/*Services Starts here*/
+.col-lg-9 h4{
+  color:#fff;
+}
+
+
+
+.btc_blog_indx_cont_bottom .image_center .image_left{
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+
+.blog_image_single img{
+  height: 200px;
+}
+
+.btc_blog_single_post_admin_img img{
+  height: 100px;
+}
+
+/*Services ends here*/
+
+
+
+
+
+
+
+/*Media Query Styles*/
+@media screen and (max-width: 768px) {
+  .side_header{
+    font-size: 1S0px;
+  }
+  
+  .text-overlay {
+      padding: 10px 10px;
+  }
+  
+  .text-overlay h2{
+    width: 400px;
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .text-overlay p{
+    font-size: 15px;
+    margin-left: 30px;
+    width: 400px;
+    
+  } 
+
+  
+  .logo_style{
+    width: 300px;
+    height: 100px;
+    display: flex;
+   
+    
+  }
+  
+  .logo_style .logo_image1{
+    height: 50px;
+    margin-top: 15px;
+  }
+  .logo_style .logo_image2{
+    height:50px;
+    margin-left: 10px;
+    margin-top: 35px;
+  }
+
+
+  .main_img_responsive{
+    height: 100px;
+  }
+
+  .sv_heading_wraper h4 h3{
+    font: 20px;
+  }
+  .payment_image{
+    height: 100px;
+   
+  }
+
+  .login_logo{
+    width: 300px;
+    height: 100px;
+    display: flex;
+   
+  }
+  
+  .login_logo .login_img1{
+    height: 30px;
+  }
+  .login_logo .login_img2{
+    height: 30px;
+  }
+
+  .register_container  .container_center{
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  .register_container  .container_center .right .onboarding_team{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border-radius: 100%;
+  }
+  .register_container  .container_center .register_onboarding_img{
+    height: 150px;
+    margin-left: 20px;
+   
+  }
+
+  
+
+}
