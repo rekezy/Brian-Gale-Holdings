@@ -27,32 +27,40 @@
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <!--favicon-->
-    <link rel="shortcut icon" type="image/png" href="\images\ebef5700-26c8-4496-b82f-3b932cfc31b7.jpg" />
+    <link rel="shortcut icon" type="image/png" href="\images/bgh_1.png" />
 </head>
 
 <body>
     <!-- preloader Start -->
-    <!-- preloader Start -->
+    <!-- preloader Start 
     <div id="preloader">
         <div id="status">
             <img src="images/loader.gif" id="preloader_image" alt="loader">
         </div>
-    </div>
+    </div>-->
     <div class="cursor"></div>
     <!-- Top Scroll Start -->
     <a href="javascript:" id="return-to-top"> <i class="fas fa-angle-double-up"></i></a>
     <!-- Top Scroll End -->
     <!-- cp navi wrapper Start -->
     <nav class="cd-dropdown index3_cd_dropdown d-block d-sm-block d-md-block d-lg-none d-xl-none">
-        <h2><a href="index.html"> Brian Holding </a></h2>
+        <h2><a href="index.html"> Brian Gale Holdings </a></h2>
         <a href="#0" class="cd-close">Close</a>
         <ul class="cd-dropdown-content">
       
              <li ><a href="index.html">Home</a> </li>
             <li><a href="about_us.html"> about us </a></li>
-            <li><a href="investment.html"> investment plan </a></li>
+            
             <li><a href="faq.html"> FAQ </a></li>
-            <li><a href="blog_single.html">blog</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Our Responsibility</a>
+                <div class="dropdown-content">
+                    <a href="diversity.html">Diversity and Inclusion</a>
+                    <a href="responsible-investing.html">Responsible Investing</a>
+                    <a href="cooperate.html">Co operate Governance</a>
+                    <a href="investment.html">Investment Plan</a>
+                </div>
+            </li>
             <li><a href="contact_us.html"> contact us </a></li>
             <li><a href="login.html"> login </a></li>
             <li><a href="register_onboarding.html"> register </a></li>
@@ -64,9 +72,7 @@
             <div class="cp_logo_wrapper">
                 <a href="index.html">
                     <div class="logo_style">
-                        <img class="logo_image1" src="images/ebef5700-26c8-4496-b82f-3b932cfc31b7.jpg" alt="logo">
-                        <img class="logo_image2" src="images/brain holding.jpg" alt="logo">
-                        
+                        <img class="logo_image1" src="images/bgh-.png" alt="logo">
                     </div>
                 </a>
             </div>
@@ -124,10 +130,16 @@
                     <ul class="main_nav_ul">
                           
                         <li><a href="about_us.html" class="gc_main_navigation">About us</a></li>
-                        <li><a href="investment.html" class="gc_main_navigation">investment plan</a></li>
-                        <li><a href="faq.html" class="gc_main_navigation">FAQ</i></a></li>
-                        <li><a href="blog_single.html" class="gc_main_navigation">blog</i></a>
                        
+                        <li><a href="faq.html" class="gc_main_navigation">FAQ</i></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn">Our Responsibility</a>
+                            <div class="dropdown-content">
+                                <a href="diversity.html">Diversity and Inclusion</a>
+                                <a href="responsible-investing.html">Responsible Investing</a>
+                                <a href="cooperate.html">Co operate Governance</a>
+                                <a href="investment.html">Investment Plan</a>
+                            </div>
                         </li>
                         <li><a href="contact_us.html" class="gc_main_navigation">contact us</a></li>
                     </ul>
@@ -191,51 +203,47 @@
                             </div>
 								<div class="form-group icon_form comments_form register_contact">
 
-                                <input type="text" class="form-control require" name="full_name" placeholder="Referral Name*">
+                                <input type="text" class="form-control require" name="full_name" placeholder="Referral Name" id="referral">
                              
                             </div>
 							<div class="form-group icon_form comments_form register_contact">
 
-                                <input type="text" class="form-control require" name="first_name" placeholder="First Name*">
+                                <input type="text" class="form-control require" name="first_name" placeholder="First Name*" id="firstName">
                              
                             </div>
 							<div class="form-group icon_form comments_form register_contact">
 
-                                <input type="text" class="form-control require" name="last_name" placeholder="Last Name*">
+                                <input type="text" class="form-control require" name="last_name" placeholder="Last Name*" id="lastName">
                              
                             </div>
 							<div class="form-group icon_form comments_form register_contact">
 
-                                <input type="text" class="form-control require" name="last_name" placeholder="Username">
+                                <input type="text" class="form-control require" name="last_name" placeholder="Username" id="userName">
                              
                             </div>
 							 <div class="form-group icon_form comments_form register_contact">
 
-                                <input type="password" class="form-control require" placeholder="Password">
+                                <input type="password" class="form-control require" placeholder="Password" id="password">
                               
                             </div>
 							<div class="form-group icon_form comments_form register_contact">
 
-                                <input type="password" class="form-control require" placeholder="Confirm Password">
+                                <input type="password" class="form-control require" placeholder="Confirm Password" id="password">
                               
                             </div>
-							<div class="form-group icon_form comments_form register_contact">
+						
+                            <div class="form-group icon_form comments_form register_contact">
 
-                                <input type="text" class="form-control require" name="" placeholder="Transaction Pin">
-                             
-                            </div>
-							<div class="form-group icon_form comments_form register_contact">
-
-                                <input type="text" class="form-control require" name="" placeholder="Confirm Transaction Pin">
-                             
+                                <input type="text" class="form-control require" name="email" placeholder="Email Address*" id="email">
+                              
                             </div>
                             <div class="form-group icon_form comments_form register_contact">
 
-                                <input type="text" class="form-control require" name="email" placeholder="Email Address*">
+                                <input type="text" class="form-control require" name="phone_no" placeholder="Phone Number*" id="phone">
                               
                             </div>
                             <div class="select_box register_contact">                             
-                                <select>
+                                <select id="country">
                                     <option>country</option>
                                     <option>Afghanistan</option>  
                                      <option>Albania</option>  
@@ -345,7 +353,7 @@
                             </div>
                             <div class="about_btn login_btn register_btn float_left">
 
-                                <a href="#">submit</a>
+                                <button  id="register_button">submit</button>
                             </div>
                           
                         </div>
@@ -355,7 +363,7 @@
         </div>
     </div>
     <!-- login wrapper end -->
-    <!-- payments wrapper start -->
+    <!-- payments wrapper start 
     <div class="payments_wrapper float_left">
         <div class="container">
             <div class="row">
@@ -375,7 +383,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- payments wrapper end -->
     <!-- footer section start-->
     <div class="footer_main float_left">
@@ -423,10 +431,9 @@
 
                             <li><a href="contact_us.html"><i class="fa fa-angle-right"></i>contact </a>
                             </li>
-                            <li><a href="services.html"><i class="fa fa-angle-right"></i>services</a>
+                            <li><a href="terms.html"><i class="fa fa-angle-right"></i>Termsand Conditions</a>
                             </li>
-                            <li><a href="blog_single.html"><i class="fa fa-angle-right"></i>news</a> </li>
-                            <li><a href="blog_single.html"><i class="fa fa-angle-right"></i>blog</a> </li>
+                          
                         </ul>
 
                     </div>
@@ -435,7 +442,7 @@
                     <div class="wrapper_second_useful wrapper_second_links">
 
                         <ul>
-                            <li><a href="contact_us.html"><i class="fa fa-angle-right"></i>sitemap</a>
+                            <li><a href="privacy.html"><i class="fa fa-angle-right"></i>Privacy Policy</a>
                             </li>
                             <li><a href="faq.html"><i class="fa fa-angle-right"></i>FAQ </a>
                             </li>
@@ -510,6 +517,7 @@
 
 
     <!--custom js files-->
+    <script src="js/register.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/modernizr.js"></script>
