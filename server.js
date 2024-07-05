@@ -11,7 +11,8 @@ const port = process.env.Port || 8000
 
 
 //mongodb 
-const dbURI  = process.env.MONGO_URL
+const dbURI  = "mongodb+srv://themediamarket5:<password>@cluster0.momr3qu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+// const dbURI  = process.env.MONGO_URL
 
 
 
