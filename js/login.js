@@ -6,7 +6,7 @@ document.getElementById("login_button").addEventListener("click", () => {
 
   console.log(email.value, password.value);
 
-  fetch("http://localhost:8000/login", {
+  fetch("https://brain-backend-jxmx.onrender.com/login", {
     method: "POST",
     body: JSON.stringify({
       email: email.value,

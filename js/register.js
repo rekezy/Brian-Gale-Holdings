@@ -21,7 +21,7 @@ document.getElementById("register_button").addEventListener("click", (e) => {
     userName: userName.value,
   }));
 
-  fetch("http://localhost:8000/register", {
+  fetch("https://brain-backend-jxmx.onrender.com/register", {
     method: "POST",
     body: JSON.stringify({
       firstName: firstName.value,

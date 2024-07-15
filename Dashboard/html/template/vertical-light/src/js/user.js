@@ -16,7 +16,7 @@ function getCookie(cname) {
 
 const id = getCookie("Bra**&&__hold");
 // const id = "668a4e35d91c75ef3cf9a564"
-fetch(`http://localhost:8000/user/${id}`, {
+fetch(`https://brain-backend-jxmx.onrender.com/user/${id}`, {
   method: "GET",
 })
   .then((res) => res.json())
