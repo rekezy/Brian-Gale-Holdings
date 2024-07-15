@@ -90,18 +90,29 @@ app.post("/login", async (req, res) => {
 });
 
 app.get("/user", async (req, res) => {
-  const result = await User.find();
-  //   const result = await User.findOne({ email: "curts@gmail.com" });
+  const result = await User.findBy(); 
+    // const result = await User.findOne({ email: "curts@gmail.com" });
   console.log(result);
   res.send(result);
 });
 
-app.get("user/:id", async (req, res) => {
-  const result = await User.findById(req.params.id);
-  //   const result = await User.findOne({ email: "curts@gmail.com" });
-  console.log(result);
-  res.send(result);
+app.get("/user/:id", async (req, res) => {
+  try {
+    // Use findById to get the user by ID
+    const result = await User.findById(req.params.id);
+    
+    if (!result) {
+      return res.status(404).send({ message: "User not found" });
+    }
+
+    console.log(result);
+    res.send(result);
+  } catch (error) {
+    console.error("Error fetching user:", error);
+    res.status(500).send({ message: "Internal Server Error" });
+  }
 });
+
 
 app.listen(port, () => {
   console.log(`App listening  on ${port}`);
