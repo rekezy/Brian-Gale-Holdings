@@ -1,3 +1,4 @@
+//thi is a test comment
 document.getElementById("register_button").addEventListener("click", (e) => {
   e.preventDefault();
   console.log("hello");
@@ -10,7 +11,7 @@ document.getElementById("register_button").addEventListener("click", (e) => {
   const password = document.getElementById("password");
   const phone = document.getElementById("phone");
 
-  console.log(JSON.stringify({
+  console.log(JSON.stringify({ 
     firstName: firstName.value,
     lastName: lastName.value,
     email: email.value,
